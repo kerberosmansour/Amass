@@ -88,7 +88,7 @@ Switches for outputting the DNS and infrastructure findings as a network graph:
 |------|-------------|---------|
 | -maltego | Output a Maltego Graph Table CSV file | amass.viz -maltego net.csv -i data_ops.json |
 | -d3  | Output a D3.js v4 force simulation HTML file | amass.viz -d3 net.html -i data_ops.json |
-| -gexf | Output to Graph Exchange XML Format (GEXF) | amass.viz -gephi net.gexf -i data_ops.json |
+| -gexf | Output to Graph Exchange XML Format (GEXF) | amass.viz -gexf net.gexf -i data_ops.json |
 | -graphistry | Output Graphistry JSON | amass.viz -graphistry net.json -i data_ops.json |
 | -visjs | Output HTML that employs VisJS | amass.viz -visjs net.html -i data_ops.json |
 
